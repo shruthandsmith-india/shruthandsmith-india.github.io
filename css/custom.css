@@ -401,7 +401,7 @@ header
     width: 102px;
     height: 103px;
     display:block;
-    background: url(../img/preSchool_logo.png) no-repeat;
+    background: url(../img/Edu-Paedia-Pre-school.png) no-repeat;
     background-size:100%;
     position:relative;
 }
@@ -482,6 +482,11 @@ header .intro-heading
 }
 selection h3
 {
+    color: #2e3c44;
+    font-weight:bolder;
+}
+selection h1
+{ font-size:30px;
     color: #2e3c44;
     font-weight:bolder;
 }
