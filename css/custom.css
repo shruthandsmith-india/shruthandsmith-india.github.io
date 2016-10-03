@@ -787,9 +787,13 @@ footer .ul li
   background-size:30%;
 }
 .under-construction
-{ background:url(../img/under_construction.png) #315bb1 no-repeat center;
+{ background:#315bb1;
   width:100%;
   height:100vh;
+  text-align:center;
+}
+.under-construction img
+{ margin-top:70px;
 }
 /*******************************************/
 .initialism
