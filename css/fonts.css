@@ -1,0 +1,69 @@
+﻿
+@font-face
+{
+    font-family: 'HoboStd';
+    src: url('../fonts/HoboStd.woff') format('woff'), url('../fonts/HoboStd.eot') format('eot');
+    font-weight: bold;
+}
+
+.hoboStd
+{
+    font-family: 'HoboStd';
+}
+
+
+@font-face
+{
+    font-family: 'KristenITC-Regular';
+    src: url('../fonts/KristenITC-Regular.woff') format('woff'), url('../fonts/KristenITC-Regular') format('eot');
+    font-weight:bolder!important;
+}
+
+.KristenITC-Regular
+{
+    font-family: 'KristenITC-Regular';
+    font-weight:bolder!important;
+}
+
+
+@font-face
+{
+    font-family: 'kgwhattheteacherwants';
+    src: url('../fonts/kgwhattheteacherwants.woff') format('woff'), url('../fonts/kgwhattheteacherwants') format('eot');
+    font-weight: bold;
+}
+
+.kgwhattheteacherwants
+{
+    font-family: 'kgwhattheteacherwants';
+}
+
+@font-face
+{
+    font-family: 'roboto-bold';
+    src: url('../fonts/roboto-bold.woff2') format('woff2'), url('../fonts/roboto-bold.woff') format('woff');
+    font-weight: bold;
+}
+
+.roboto-bold
+{
+    font-family: 'roboto-bold';
+    font-weight:bolder;
+}
+
+@font-face
+{
+    font-family: 'rainies_kidsregular';
+    src: url('../fonts/kids.woff2') format('woff2'), url('../fonts/kids.woff') format('woff');
+    font-weight: bold;
+}
+
+.kids-icon
+{
+    font-family: 'rainies_kidsregular';
+    font-weight:bolder;
+}
+
+
+
+
