@@ -523,7 +523,7 @@ border-radius: 5px;
     margin-top: 0px;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
-}
+}   
 .disk-box:hover .disk-top
 {
     margin-top: -170px;
@@ -537,7 +537,6 @@ border-radius: 5px;
   height: 170px;
   float: left;
   margin-top:-28px;
-  /*margin-left:10px;*/
 }
 .margin-auto
 {
