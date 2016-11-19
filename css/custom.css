@@ -1,5 +1,7 @@
 ﻿
-
+html
+{overflow-x: hidden;
+}
 body
 {
     font-family: 12px;
@@ -592,8 +594,15 @@ border-radius: 5px;
     width: 85px !important;
 }
 .footer-container .btn
-{
+{ cursor:default;
     letter-spacing: 1px;
+}
+.footer-container .btn:link
+{
+  cursor:pointer!important;
+}
+.footer-container .btn:link:hover
+{ opacity:0.77;
 }
 .footer-container hr
 { height:1px;
@@ -882,4 +891,33 @@ table
 }
 .fr-close
 { visibility:hidden!important;
+}
+
+/********************/
+
+.banner
+{ width:100%;
+  height:400px;
+  background:red;
+}
+/********updated ************/
+.contact-para p
+{ line-height:15px!important;
+}
+
+.moveTop
+{ 
+  background:black;
+  right:0;
+  position:fixed;
+  z-index:1000;
+  bottom:250px;
+  padding:0px 5px 5px;
+  -webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
+.moveTop i
+{ font-size:40px;
+  color:White;
 }

@@ -26,174 +26,56 @@
 
             $('.skitter-normal').skitter({
                 animation: 'blind',
-                interval: 2000,
+                interval: 4000,
                 hideTools: true,
                 theme: 'minimalist'
             });
+        });
+
+        $(document).ready(function () {
+            $("#includedContent").load("userControl/header.html");
+            $("#includedFooter").load("userControl/footer.html");
+
         });
   </script>
 </head>
 <body>
 
 
-<header>
-<div class="top-lines">
-<div class="bg-bright-orange"></div>
-<div class="bg-blue"></div>
-<div class="bg-sky-blue"></div>
-<div class="bg-light-green"></div>
-<div class="bg-bright-orange"></div>
-</div>
-
-<div class="container">
-<div class="row">
-<div class="col-sm-1" >
-<a class="navbar-brand" href="http://www.edu-paedia.org/">
-<img src="img/logo.jpg" />
-</a>
-</div>
-<div class="col-sm-11">
-<div class="col-sm-12">
-<ul class="nav navbar-nav pull-xs-right nav-right">
-<a href="http://app.coolg.in/user/login?institute=edupaedia" target="_blank" class="btn btn-sm btn-secondary pull-xs-right KristenITC-Regular btn-common bg-light-black text-white m-t-1">Parent Login</a>
+ <div id="includedContent">
  
- <div class="btn-group pull-xs-right m-t-1" role="group">
-    <a id="btnGroupDrop1" type="button" class="btn btn-sm btn-secondary dropdown-toggle KristenITC-Regular text-black btn-common" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      School Login
-    </a>
-    <div class="dropdown-menu">
-    <a class="dropdown-item" href="http://www.ho.edu-paedia.coolg.in/" target="_blank">HeadOffice</a>
-      <a class="dropdown-item" href="http://www.kudlu.edu-paedia.coolg.in/" target="_blank">Kudlu</a> 
-  <a class="dropdown-item" href="http://www.btm.edu-paedia.coolg.in/" target="_blank">BTM</a>
-  <a class="dropdown-item" href="http://www.bommanahalli.edu-paedia.coolg.in/" target="_blank">Bommanahalli</a> 
-  <a class="dropdown-item" href="http://www.ullal.edu-paedia.coolg.in/" target="_blank">Ullal</a>
-  <a class="dropdown-item" href="http://www.jpnagar.edu-paedia.coolg.in/" target="_blank">JP Nagar</a> 
-  <a class="dropdown-item" href="http://www.horamavu.edu-paedia.coolg.in/" target="_blank">Horamavu</a> 
- <a class="dropdown-item" href="http://www.rajajinagar.edu-paedia.coolg.in/" target="_blank">Rajajinagar</a>
-
- <a class="dropdown-item" href="http://www.sarjapur.edu-paedia.coolg.in/" target="_blank">Sarjapur</a>
- <a class="dropdown-item" href="http://www.rtnagar.edu-paedia.coolg.in/" target="_blank">RT Nagar</a>
- <a class="dropdown-item" href="http://www.hubli.edu-paedia.coolg.in/" target="_blank">Hubli</a>
-
-
-  </div>
-  </div>
- 
-
-
-</ul>
-
-</div>
-<div class="col-sm-12 p-t-1">
-
-<ul class="nav navbar-nav pull-xs-right nav-right">
-
-<li class="nav-item sub-nav">
-<a class="nav-link text-white" href="http://www.edu-paedia.org/">Home</a> 
-</li>
-<li class="nav-item sub-nav">
-<a class="nav-link text-white" href="gallery.html">Gallery</a>
-</li>
-<li class="nav-item sub-nav">
-<a class="nav-link text-white" href="parentsCorner.html">Parents Corner</a>
-</li>
-<li class="nav-item sub-nav">
-<a class="nav-link text-white" href="http://edu-paediapreschool.blogspot.in/" target="_blank">Blog</a>
-</li>
-<li class="nav-item sub-nav">
-<a class="nav-link text-white" href="contactUs.html#contactus">Contact Us</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-
-</div>
-<div class="custom-nav-container">
-<div class="container-fluid p-a-0">
- 
- <div class="nav-splitter-bg">
- <div class=" col-sm-6 bg-bright-green"></div>
-<div class="col-sm-6 bg-bright-blue"></div>
  </div>
-
-   <div class="container position-relative">
-<nav class="navbar p-a-0">
-
-
- <button class="navbar-toggler hidden-sm-up pull-xs-right" type="button" data-toggle="collapse" data-target="#nav-content">
-☰
-</button>
-
- 
-<div class="collapse navbar-toggleable-xs" id="nav-content">
- 
-<ul class="nav custom-nav navbar-nav pull-sm-right kgwhattheteacherwants">
-<li class="nav-item">
-<a class="nav-link bg-light-green" href="aboutUs.html#aboutUs">About Us</a>
-<i class="triangle-down border-light-green"></i>
-</li>
-<li class="nav-item">
-<a class="nav-link bg-red" href="aboutUs.html#whyedu">Why Edu-paedia</a>
-<i class="triangle-down border-red"></i>
-</li>
-<li class="nav-item">
-<a class="nav-link bg-orange" href="aboutUs.html#dayedu">  Typical Day@Edu-paedia</a>
-<i class="triangle-down border-orange"></i>
-</li>
-<li class="nav-item">
-<a class="nav-link bg-sky-blue" href="aboutUs.html#eduprograms">   Programmes</a>
-<i class="triangle-down border-sky-blue"></i>
-</li>
-<li class="nav-item">
-<a class="nav-link bg-rose" href="enrollment.html#eduenrol">   Enrollment </a>
-<i class="triangle-down border-rose"></i>
-</li>
-<li class="nav-item">
-<a class="nav-link bg-blue" href="jobcareers.html#jobcareers">   Careers</a>
-<i class="triangle-down border-blue"></i>
-</li>
-</ul>
-</div>
-
-
-
-</nav> </div>
-
-</div>
-</div>
-</header>
 
 <div id="page">
         <div class="skitter-normal-box">
             <div class="skitter skitter-normal with-dots">
                 <ul>
                     <li><a href="#directionTop">
-                        <img src="img/banner-1.jpg" class="directionTop" /></a><div class="label_text">
+                        <img src="img/banner1.jpg" class="directionTop" /></a><div class="label_text">
                             <p class="roboto-bold">
                                 The activity of the child has always been looked upon as an expression of his vitality !</p>
                         </div>
                     </li>
                     <li><a href="#directionBottom">
-                        <img src="img/banner-2.jpg" class="directionBottom" /></a><div class="label_text">
+                        <img src="img/banner2.jpg" class="directionBottom" /></a><div class="label_text">
                             <p class="roboto-bold">
                                 There are no seven wonders of the world in the eyes of a child. There are seven million !</p>
                         </div>
                     </li>
                     <li><a href="#directionRight">
-                        <img src="img/banner-3.jpg" class="directionRight" /></a><div class="label_text">
+                        <img src="img/banner3.jpg" class="directionRight" /></a><div class="label_text">
                             <p class="roboto-bold">
                                 The mediocre teacher tells. The good teacher explains. The superior teacher demonstrates. The great teacher inspires !</p>
                         </div>
                     </li>
                     <li><a href="#directionRight">
-                        <img src="img/banner-4.jpg" class="directionRight" /></a><div class="label_text">
+                        <img src="img/banner4.jpg" class="directionRight" /></a><div class="label_text">
                             <p class="roboto-bold">
                                 We found individual activity is the one factor that stimulates and produces development!</p>
                         </div>
                     </li>
                     <li><a href="#directionRight">
-                        <img src="img/banner-5.jpg" class="directionRight" /></a><div class="label_text">
+                        <img src="img/banner5.jpg" class="directionRight" /></a><div class="label_text">
                            <p class="roboto-bold">
                                 Happiness lies in the joy of achievement, in the thrill of creative effort !</p>
                         </div>
@@ -204,11 +86,9 @@
             </div>
 
             <div>
-            <a href="http://enrollment.edu-paedia.org/" target="_blank" class="btn btn-primary pull-right banner-bottom KristenITC-Regular">Enquiry Form</a>
+            <a href="http://enquiry.edu-paedia.org/" target="_blank" class="btn btn-primary pull-right banner-bottom KristenITC-Regular">Enquiry Form</a>
             </div>
-        </div>
-
-    </div>
+        </div></div>
 
 
   <div class="container-fluid p-a-0">
@@ -245,13 +125,20 @@ A child starting preschool, approaches a major milestone with conflicting emotio
 <strong class="hoboStd text-blue">EDU-PAEDIA</strong> is a preschool, that helps smoothen this transition by focusing on the 3 E’s- <strong>"Enrich, Energize and Evolve"</strong>, thus moulding a child’s budding mind to achieve social & emotional development.
 </p>
 
-<p class="text-justify">
-<strong>Enrich - </strong>From the time a child is born to the time he enters preschool, he spends an average of 800 days soaking in pieces of information from various sources. At <strong class="hoboStd text-blue">EDU-PAEDIA</strong>, we believe in providing an environment that further enriches a receptive mind to put the pieces together.
+<div class="alert-success p-l-1 p-r-1 pt20 pb5 border-radius m-b-1">
+<p class="lead text-black line-height-31 text-justify post roboto-bold">
+<strong>Enrich - </strong> "From the time a child is born to the time he enters preschool, he spends an average of 800 days soaking in pieces of information from various sources."
 </p>
+</div>
+
+<p class="text-justify post">
+At <strong class="hoboStd text-blue">EDU-PAEDIA</strong>, we believe in providing an environment that further enriches a receptive mind to put the pieces together.
+</p>
+
 
 <div class="alert-success p-l-1 p-r-1 pt20 pb5 border-radius m-b-1">
 <p class="lead text-black line-height-31 text-justify post roboto-bold">
-<strong>Energize</strong> “Minds are like parachutes, they only function when they are open.” - <strong class="text-blue roboto-bold">James Dewar</strong>
+<strong>Energize - </strong> “Minds are like parachutes, they only function when they are open.” - <strong class="text-blue roboto-bold">James Dewar</strong>
 </p>
 </div>
 
@@ -261,7 +148,7 @@ At <strong class="hoboStd text-blue">EDU-PAEDIA</strong>, we believe in providin
 <div class="alert-success p-l-1 p-r-1 pt20 pb5 border-radius m-b-1">
 <p class="lead text-black line-height-31 text-justify post roboto-bold">
 
-<strong>Evolve</strong> “The goal of early childhood education should be to activate the child’s own natural desire to learn.” - <strong class="text-blue">Maria Montessori</strong>
+<strong>Evolve - </strong> “The goal of early childhood education should be to activate the child’s own natural desire to learn.” - <strong class="text-blue">Maria Montessori</strong>
 </p>
 </div>
 
@@ -517,7 +404,7 @@ We provide this through our planned activities and our educational programs. We 
 
                            
                              
-                        <p class="text-black m-t-1">Here at <strong class="text-red hoboStd">'Edu-paedia'</strong> we are following amalgamation of several methodologies, seeing the best interest of child.</p>
+                        <p class="text-black m-t-1">Here at <strong class="text-red hoboStd">'Edu-Paedia'</strong> we are following amalgamation of several methodologies, seeing the best interest of child.</p>
                         
                     </div>
         <div class="col-md-12 text-center mb20 post">
@@ -638,7 +525,7 @@ Howard gardner's theory of multiple intelligence. As per Howard gardners multipl
         </div>
        <div class="col-md-12 text-center mb20 post">
          <h2 class="num-tag img-circle blue-btn">4</h2>
-       <h4 class=" text-red text-capitalize roboto-bold text-xs-center mt20 mb20">Reggio Emila Approach </h4>
+       <h4 class=" text-red text-capitalize roboto-bold text-xs-center mt20 mb20">Reggio Emilia Approach </h4>
 <p class="lead line-height-31 mt10 lead-text text-xs-center">We believe that every corner of the school must teach our children something new, as it is their 3rd teacher beside parents and mentor. Hence at Edu-Paedia we have introduced eight innovative corners for children's to explore and learn while playing. All our activity rooms are having some or the other information to project.</p>
         </div>
 
@@ -699,19 +586,19 @@ Howard gardner's theory of multiple intelligence. As per Howard gardners multipl
                </p>
       </div>
 
-                     <div class="post">
+                     <!--<div class="post">
                      
                      <h4 class="text-white mt40 mb10 roboto-bold">4. Free choice</h4>
                      <p class="text-white roboto-bold">
 Exploration time -learning centers.
 
                </p>
-                     </div>         
+                     </div>-->         
                
 
 
                    <div class="post">
-                   <h5 class="text-white mt40 mb10 roboto-bold">5. Outdoor time</h5>
+                   <h5 class="text-white mt40 mb10 roboto-bold">4. Outdoor time</h5>
                    <p class=" roboto-bold text-white">
 Outdoor exploration time - free choice - Physical zone, Social zone, Retreat zone, Nature zone.
 
@@ -723,7 +610,7 @@ Outdoor exploration time - free choice - Physical zone, Social zone, Retreat zon
                               
                
                 
-                <h5 class="text-white mt40 mb10 post roboto-bold">6. Break time</h5>
+                <h5 class="text-white mt40 mb10 post roboto-bold">5. Break time</h5>
                 <p class="roboto-bold text-white">
 Time for Snacks - Kids can have snacks and other refreshment during break time.
                 </p>
@@ -736,14 +623,14 @@ Time for Snacks - Kids can have snacks and other refreshment during break time.
 
 <div class="col-lg-6">
               <div class="post">
-                <h5 class="text-white mt40 mb10 roboto-bold">7. Special class </h5>
+                <h5 class="text-white mt40 mb10 roboto-bold">6. Special class </h5>
                 <p class="roboto-bold text-white">
 Expressive Arts time - Any of the ones we plan to provide like Art, Music and Movement, Pottery, Gardening, Cooking etc.
 
                </p>
                 </div>
                 <div class="post">
-                 <h5 class="text-white mt40 mb10 roboto-bold">8. Story time - Reading</h5>
+                 <h5 class="text-white mt40 mb10 roboto-bold">7. Story time - Reading</h5>
                  <p class="text-white roboto-bold">
 Retelling, Spinning a story, Dramatics, Puppetry etc.
 
@@ -753,7 +640,7 @@ Retelling, Spinning a story, Dramatics, Puppetry etc.
                
 
                        <div class="post">
-                       <h5 class="text-white mt40 mb10 roboto-bold">9. Small Group Exploration – Concept based (Literacy/Numeracy)</h5>
+                       <h5 class="text-white mt40 mb10 roboto-bold">8. Small Group Exploration – Concept based (Literacy/Numeracy)</h5>
                        <p class="text-white roboto-bold">
 Whole group time- introduction of concept, Small group exploration time - learning centers, Whole group time - Plenary and clean up time.
 
@@ -762,18 +649,18 @@ Whole group time- introduction of concept, Small group exploration time - learni
                
 
 
-                    <div class="post">
+                    <!--<div class="post">
                      <h5 class="text-white mt40 mb10 roboto-bold">10. Free choice</h5>
                                     <p class="text-white roboto-bold">
 Exploration time -learning centers
 
                </p>
-                    </div>                         
+                    </div>-->                         
                
     
 
     <div class="post">
-    <h5 class="text-white mt40 mb10 roboto-bold">11. Carpet hour </h5>
+    <h5 class="text-white mt40 mb10 roboto-bold">9. Carpet hour </h5>
     <p class="text-white roboto-bold">
 Reflection time (Over look of the day, aspects related to Personal, Social,     Emotional happenings of the day)
 
@@ -781,7 +668,7 @@ Reflection time (Over look of the day, aspects related to Personal, Social,     
     </div>
                              
 
-<div class="post"><h5 class="text-white mt40 mb10 roboto-bold">12. Dismissal time</h5>
+<div class="post"><h5 class="text-white mt40 mb10 roboto-bold">10. Dismissal time</h5>
 <p class="text-white roboto-bold">
 Wrap up time, Collection of home school connect, Greetings.
 
@@ -816,16 +703,16 @@ Wrap up time, Collection of home school connect, Greetings.
 
  <ul class="nav nav-tabs cutom-nav-tabs m-t-2" role="tablist">
   <li class="nav-item">
-    <a class="nav-link active" data-toggle="tab" href="#Program1" role="tab">Toddler (1.5yrs - 4yrs</a>
+    <a class="nav-link active" data-toggle="tab" href="#Program1" role="tab">Toddler (1.5yrs - 4yrs)</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" data-toggle="tab" href="#Program2" role="tab">Kinder Garten-Preschool (4 years to 6 years</a>
+    <a class="nav-link" data-toggle="tab" href="#Program2" role="tab">Kinder Garten-Preschool (4yrs - 6yrs)/a>
   </li>
   <li class="nav-item">
     <a class="nav-link" data-toggle="tab" href="#Program3" role="tab">Hobby Club</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" data-toggle="tab" href="#Program4" role="tab">Tutorials- 1st to 10th Std</a>
+    <a  class="nav-link" data-toggle="tab" href="#Program4" role="tab">Tutorials - (1st- 10th Std)</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" data-toggle="tab" href="#Program5" role="tab">International Montessori Teacher Training Course</a>
@@ -846,7 +733,7 @@ Wrap up time, Collection of home school connect, Greetings.
         
                  <ul class="custom-ul p-a-0 m-a-0">
 
-                 <li><i class="fa fa-check-circle-o" ></i><p> EQ (emotional intelligence).</p></li>
+                 <li><i class="fa fa-check-circle-o" ></i><p> EQ (Emotional Intelligence).</p></li>
                  <li><i class="fa fa-check-circle-o" ></i><p>Language & Literacy.</p></li>
              
                 
@@ -934,7 +821,7 @@ Wrap up time, Collection of home school connect, Greetings.
     <div role="tabpanel" class="tab-pane" id="Program5">
              <img class="pull-left m-r-2 img-rounded" src="img/IMTTI.png" alt="International Montessori Teacher Training Institute" title="International Montessori Teacher Training Institute" />
            <p class="text-justify">
-                  Edu-paedia Preschool for Excellence offers International Montessori Teacher Training Course in amalgamation with International Montessori Teacher Training Institute (IMTTI) - an Independent organization affiliated with WonderKidz International School, Bangalore.
+                  Edu-Paedia Preschool for Excellence offers International Montessori Teacher Training Course in amalgamation with International Montessori Teacher Training Institute (IMTTI) - an Independent organization affiliated with WonderKidz International School, Bangalore.
                   </p>
                    <p class="text-justify">
                  Become a certified Montessori teacher in a respected profession that so positively impacts the lives of young children. Be the most important person in a child's life & help them discover their hidden talents and build a sound foundation.
@@ -1053,49 +940,9 @@ Wrap up time, Collection of home school connect, Greetings.
 
 
  </div>
- <div class="container-fluid footer-container bg-blue mt100 p-a-0">
-                <div class="container">
-                    <div class="triangle-up-shadow">
-                    </div>
-                    <div class="triangle-up">
-                    </div>
-                    <div class="row p-t-3 p-a-0">
-                        <div class="col-lg-5  col-sm-12 p-a-0">
-                            <a href="http://www.edu-paedia.org/" target="_blank"><img class="pull-left m-r-1" src="img/logo.jpg" /></a>
-                            <p class="text-white text-xs-left">
-                                2nd Floor, #13, “UDN Altius”, 100 Feet Ring Road, (above Federal Bank, opposite
-                                Shell Petrol Bunk), JP Nagar 6th Phase, Bangalore – 560078</p>
-                        </div>
-                        <div class="col-lg-6 col-sm-6 p-a-0">
-                            <div class="col-lg-6 p-a-0">
-                                <a href="mailto:info@edu-paedia.com" class="btn btn-link kgwhattheteacherwants btn-lg text-white pull-left">
-                                    <i class="fa fa-envelope-o m-r-1"></i>info@edu-paedia.com</a></div>
-                            <div class="col-lg-6 p-a-0">
-                                <a href="#" class="btn btn-link kgwhattheteacherwants btn-lg text-white pull-left"><i
-                                    class="fa fa-mobile m-r-1"></i>9620835796, 9632248298</a></div>
-                        </div>
-                    </div>
-                </div>
-                <hr />
-                <div class="container footer-bottom">
-                    <div class="row">
-                        <div class="col-lg-8 col-md-1-12 p-b-1">
-                            <a href="aboutUs.html#aboutUs">About Us</a>
-                            
-                           <a href="aboutUs.html#whyedu">Why Edu-paedia</a>
-                           <a  href="aboutUs.html#dayedu">  Typical Day@Edu-paedia</a>
-                            <a href="aboutUs.html#eduprograms">   Programmes</a>
-                             <a href="enrollment.html#eduenrol">   Enrollment </a>
-                             <a href="jobcareers.html#jobcareers">   Careers</a>
-                             
-                              <a href="contactUs.html#contactus">Contact Us</a>
-                        </div>
-                        <div class="col-lg-4 col-md-12 text-lg-right p-b-1">
-                            <a class="text-white">Copyright © Edu-Paedia Foundation 2016</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+              <div id="includedFooter">
+ 
+ </div>
   <script src="js/bootstrap.js" type="text/javascript"></script>
 </body>
 </html>
