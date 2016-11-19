@@ -885,6 +885,8 @@ table
 { border:4px solid white;
   float:left;
   width:23%;
+  height:160px;
+  overflow:hidden;
 }
 .gallery a img
 { width:100%;
