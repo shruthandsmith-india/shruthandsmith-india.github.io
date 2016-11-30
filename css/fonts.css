@@ -63,6 +63,21 @@
     font-family: 'rainies_kidsregular';
     font-weight:bolder;
 }
+@font-face
+{
+    font-family: 'social_circlesregular';
+    src: url('../fonts/social_circles-webfont.woff2') format('woff2'), url('../fonts/social_circles-webfont.woff') format('woff');
+        font-weight: normal;
+    font-style: normal;
+}
+
+.social_circlesregular
+{
+    font-family: 'social_circlesregular';
+}
+
+
+
 
 
 
